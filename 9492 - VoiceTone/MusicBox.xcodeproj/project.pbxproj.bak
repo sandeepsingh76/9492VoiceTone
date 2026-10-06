@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5C2F76C2F697B330047574C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D5C2F76B2F697B330047574C /* FirebaseAnalytics */; };
+		D5C2F76E2F697B330047574C /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = D5C2F76D2F697B330047574C /* FirebaseRemoteConfig */; };
+		D5C2F7712F697B490047574C /* AdjustSdk in Frameworks */ = {isa = PBXBuildFile; productRef = D5C2F7702F697B490047574C /* AdjustSdk */; };
+		D5C2F7732F697B490047574C /* AdjustWebBridge in Frameworks */ = {isa = PBXBuildFile; productRef = D5C2F7722F697B490047574C /* AdjustWebBridge */; };
+		D5C2F7762F697B5A0047574C /* FingerprintPro in Frameworks */ = {isa = PBXBuildFile; productRef = D5C2F7752F697B5A0047574C /* FingerprintPro */; };
+		D5C2F7952F697B7E0047574C /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F77A2F697B7E0047574C /* AppTheme.swift */; };
+		D5C2F7962F697B7E0047574C /* AudioPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F77C2F697B7E0047574C /* AudioPlayerViewModel.swift */; };
+		D5C2F7972F697B7E0047574C /* AudioRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F77D2F697B7E0047574C /* AudioRecorderView.swift */; };
+		D5C2F7982F697B7E0047574C /* AudioRecorderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F77E2F697B7E0047574C /* AudioRecorderViewModel.swift */; };
+		D5C2F7992F697B7E0047574C /* CachedArtworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F77F2F697B7E0047574C /* CachedArtworkImage.swift */; };
+		D5C2F79A2F697B7E0047574C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F7802F697B7E0047574C /* ContentView.swift */; };
+		D5C2F79B2F697B7E0047574C /* CustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F7812F697B7E0047574C /* CustomBackButton.swift */; };
+		D5C2F79C2F697B7E0047574C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F7822F697B7E0047574C /* HomeView.swift */; };
+		D5C2F79D2F697B7E0047574C /* HowToUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F7832F697B7E0047574C /* HowToUseView.swift */; };
+		D5C2F79E2F697B7E0047574C /* LegalDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F7852F697B7E0047574C /* LegalDocumentView.swift */; };
+		D5C2F79F2F697B7E0047574C /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F7862F697B7E0047574C /* MainTabView.swift */; };
+		D5C2F7A02F697B7E0047574C /* MusicBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F7872F697B7E0047574C /* MusicBoxApp.swift */; };
+		D5C2F7A12F697B7E0047574C /* MusicDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F7882F697B7E0047574C /* MusicDetailsView.swift */; };
+		D5C2F7A22F697B7E0047574C /* MusicModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F7892F697B7E0047574C /* MusicModel.xcdatamodeld */; };
+		D5C2F7A32F697B7E0047574C /* MusicPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F78A2F697B7E0047574C /* MusicPlayerView.swift */; };
+		D5C2F7A42F697B7E0047574C /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F78B2F697B7E0047574C /* PersistenceController.swift */; };
+		D5C2F7A52F697B7E0047574C /* Q2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F78C2F697B7E0047574C /* Q2.swift */; };
+		D5C2F7A62F697B7E0047574C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F78D2F697B7E0047574C /* SettingsView.swift */; };
+		D5C2F7A82F697B7E0047574C /* X7.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F78F2F697B7E0047574C /* X7.swift */; };
+		D5C2F7A92F697B7E0047574C /* Y3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F7902F697B7E0047574C /* Y3.swift */; };
+		D5C2F7AA2F697B7E0047574C /* Z9.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2F7912F697B7E0047574C /* Z9.swift */; };
+		D5C2F7AB2F697B7E0047574C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C2F7772F697B7E0047574C /* Preview Assets.xcassets */; };
+		D5C2F7AC2F697B7E0047574C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C2F77B2F697B7E0047574C /* Assets.xcassets */; };
+		D5C2F7B02F6980BE0047574C /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C2F7AE2F6980BE0047574C /* AdServices.framework */; };
+		D5C2F7B12F6980BE0047574C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C2F7AF2F6980BE0047574C /* AdSupport.framework */; };
+		D5C2F7B32F6980C50047574C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C2F7B22F6980C50047574C /* StoreKit.framework */; };
+		D5C2F7B52F6980CB0047574C /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C2F7B42F6980CB0047574C /* AppTrackingTransparency.framework */; };
+		D5C2F7B72F69811D0047574C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5C2F7B62F69811D0047574C /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D5C2F7772F697B7E0047574C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5C2F77A2F697B7E0047574C /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		D5C2F77B2F697B7E0047574C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5C2F77C2F697B7E0047574C /* AudioPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewModel.swift; sourceTree = "<group>"; };
+		D5C2F77D2F697B7E0047574C /* AudioRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderView.swift; sourceTree = "<group>"; };
+		D5C2F77E2F697B7E0047574C /* AudioRecorderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderViewModel.swift; sourceTree = "<group>"; };
+		D5C2F77F2F697B7E0047574C /* CachedArtworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedArtworkImage.swift; sourceTree = "<group>"; };
+		D5C2F7802F697B7E0047574C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5C2F7812F697B7E0047574C /* CustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButton.swift; sourceTree = "<group>"; };
+		D5C2F7822F697B7E0047574C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D5C2F7832F697B7E0047574C /* HowToUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUseView.swift; sourceTree = "<group>"; };
+		D5C2F7842F697B7E0047574C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5C2F7852F697B7E0047574C /* LegalDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalDocumentView.swift; sourceTree = "<group>"; };
+		D5C2F7862F697B7E0047574C /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		D5C2F7872F697B7E0047574C /* MusicBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBoxApp.swift; sourceTree = "<group>"; };
+		D5C2F7882F697B7E0047574C /* MusicDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailsView.swift; sourceTree = "<group>"; };
+		D5C2F78A2F697B7E0047574C /* MusicPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerView.swift; sourceTree = "<group>"; };
+		D5C2F78B2F697B7E0047574C /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		D5C2F78C2F697B7E0047574C /* Q2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q2.swift; sourceTree = "<group>"; };
+		D5C2F78D2F697B7E0047574C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D5C2F78F2F697B7E0047574C /* X7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = X7.swift; sourceTree = "<group>"; };
+		D5C2F7902F697B7E0047574C /* Y3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Y3.swift; sourceTree = "<group>"; };
+		D5C2F7912F697B7E0047574C /* Z9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Z9.swift; sourceTree = "<group>"; };
+		D5C2F7932F697B7E0047574C /* MusicModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusicModel.xcdatamodel; sourceTree = "<group>"; };
+		D5C2F7AE2F6980BE0047574C /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		D5C2F7AF2F6980BE0047574C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		D5C2F7B22F6980C50047574C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D5C2F7B42F6980CB0047574C /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		D5C2F7B62F69811D0047574C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D5E64D7B2F3C630C007EEEFA /* MusicBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5E64D782F3C630C007EEEFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C2F7B32F6980C50047574C /* StoreKit.framework in Frameworks */,
+				D5C2F7712F697B490047574C /* AdjustSdk in Frameworks */,
+				D5C2F7B12F6980BE0047574C /* AdSupport.framework in Frameworks */,
+				D5C2F7732F697B490047574C /* AdjustWebBridge in Frameworks */,
+				D5C2F7762F697B5A0047574C /* FingerprintPro in Frameworks */,
+				D5C2F7B52F6980CB0047574C /* AppTrackingTransparency.framework in Frameworks */,
+				D5C2F76C2F697B330047574C /* FirebaseAnalytics in Frameworks */,
+				D5C2F76E2F697B330047574C /* FirebaseRemoteConfig in Frameworks */,
+				D5C2F7B02F6980BE0047574C /* AdServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5C2F7782F697B7E0047574C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5C2F7772F697B7E0047574C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5C2F7922F697B7E0047574C /* MusicBox */ = {
+			isa = PBXGroup;
+			children = (
+				D5C2F7782F697B7E0047574C /* Preview Content */,
+				D5C2F77A2F697B7E0047574C /* AppTheme.swift */,
+				D5C2F77B2F697B7E0047574C /* Assets.xcassets */,
+				D5C2F77C2F697B7E0047574C /* AudioPlayerViewModel.swift */,
+				D5C2F77D2F697B7E0047574C /* AudioRecorderView.swift */,
+				D5C2F77E2F697B7E0047574C /* AudioRecorderViewModel.swift */,
+				D5C2F77F2F697B7E0047574C /* CachedArtworkImage.swift */,
+				D5C2F7802F697B7E0047574C /* ContentView.swift */,
+				D5C2F7812F697B7E0047574C /* CustomBackButton.swift */,
+				D5C2F7822F697B7E0047574C /* HomeView.swift */,
+				D5C2F7832F697B7E0047574C /* HowToUseView.swift */,
+				D5C2F7842F697B7E0047574C /* Info.plist */,
+				D5C2F7B62F69811D0047574C /* GoogleService-Info.plist */,
+				D5C2F7852F697B7E0047574C /* LegalDocumentView.swift */,
+				D5C2F7862F697B7E0047574C /* MainTabView.swift */,
+				D5C2F7872F697B7E0047574C /* MusicBoxApp.swift */,
+				D5C2F7882F697B7E0047574C /* MusicDetailsView.swift */,
+				D5C2F7892F697B7E0047574C /* MusicModel.xcdatamodeld */,
+				D5C2F78A2F697B7E0047574C /* MusicPlayerView.swift */,
+				D5C2F78B2F697B7E0047574C /* PersistenceController.swift */,
+				D5C2F78C2F697B7E0047574C /* Q2.swift */,
+				D5C2F78D2F697B7E0047574C /* SettingsView.swift */,
+				D5C2F78F2F697B7E0047574C /* X7.swift */,
+				D5C2F7902F697B7E0047574C /* Y3.swift */,
+				D5C2F7912F697B7E0047574C /* Z9.swift */,
+			);
+			path = MusicBox;
+			sourceTree = "<group>";
+		};
+		D5E64D722F3C630C007EEEFA = {
+			isa = PBXGroup;
+			children = (
+				D5C2F7922F697B7E0047574C /* MusicBox */,
+				D5E64D7C2F3C630C007EEEFA /* Products */,
+				DFD18BFAA373122DEF6A402D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5E64D7C2F3C630C007EEEFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5E64D7B2F3C630C007EEEFA /* MusicBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFD18BFAA373122DEF6A402D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5C2F7B42F6980CB0047574C /* AppTrackingTransparency.framework */,
+				D5C2F7B22F6980C50047574C /* StoreKit.framework */,
+				D5C2F7AE2F6980BE0047574C /* AdServices.framework */,
+				D5C2F7AF2F6980BE0047574C /* AdSupport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5E64D7A2F3C630C007EEEFA /* MusicBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E64D892F3C630E007EEEFA /* Build configuration list for PBXNativeTarget "MusicBox" */;
+			buildPhases = (
+				D5E64D772F3C630C007EEEFA /* Sources */,
+				D5E64D782F3C630C007EEEFA /* Frameworks */,
+				D5E64D792F3C630C007EEEFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicBox;
+			packageProductDependencies = (
+				D5C2F76B2F697B330047574C /* FirebaseAnalytics */,
+				D5C2F76D2F697B330047574C /* FirebaseRemoteConfig */,
+				D5C2F7702F697B490047574C /* AdjustSdk */,
+				D5C2F7722F697B490047574C /* AdjustWebBridge */,
+				D5C2F7752F697B5A0047574C /* FingerprintPro */,
+			);
+			productName = MusicBox;
+			productReference = D5E64D7B2F3C630C007EEEFA /* MusicBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5E64D732F3C630C007EEEFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D5E64D7A2F3C630C007EEEFA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = D5E64D762F3C630C007EEEFA /* Build configuration list for PBXProject "MusicBox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5E64D722F3C630C007EEEFA;
+			packageReferences = (
+				D5C2F76A2F697B330047574C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				D5C2F76F2F697B490047574C /* XCRemoteSwiftPackageReference "ios_sdk" */,
+				D5C2F7742F697B5A0047574C /* XCRemoteSwiftPackageReference "fingerprintjs-pro-ios" */,
+			);
+			productRefGroup = D5E64D7C2F3C630C007EEEFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5E64D7A2F3C630C007EEEFA /* MusicBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5E64D792F3C630C007EEEFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C2F7AB2F697B7E0047574C /* Preview Assets.xcassets in Resources */,
+				D5C2F7AC2F697B7E0047574C /* Assets.xcassets in Resources */,
+				D5C2F7B72F69811D0047574C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA2838235D9F226AF1FC301B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MusicBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5E64D772F3C630C007EEEFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C2F7952F697B7E0047574C /* AppTheme.swift in Sources */,
+				D5C2F7962F697B7E0047574C /* AudioPlayerViewModel.swift in Sources */,
+				D5C2F7972F697B7E0047574C /* AudioRecorderView.swift in Sources */,
+				D5C2F7982F697B7E0047574C /* AudioRecorderViewModel.swift in Sources */,
+				D5C2F7992F697B7E0047574C /* CachedArtworkImage.swift in Sources */,
+				D5C2F79A2F697B7E0047574C /* ContentView.swift in Sources */,
+				D5C2F79B2F697B7E0047574C /* CustomBackButton.swift in Sources */,
+				D5C2F79C2F697B7E0047574C /* HomeView.swift in Sources */,
+				D5C2F79D2F697B7E0047574C /* HowToUseView.swift in Sources */,
+				D5C2F79E2F697B7E0047574C /* LegalDocumentView.swift in Sources */,
+				D5C2F79F2F697B7E0047574C /* MainTabView.swift in Sources */,
+				D5C2F7A02F697B7E0047574C /* MusicBoxApp.swift in Sources */,
+				D5C2F7A12F697B7E0047574C /* MusicDetailsView.swift in Sources */,
+				D5C2F7A22F697B7E0047574C /* MusicModel.xcdatamodeld in Sources */,
+				D5C2F7A32F697B7E0047574C /* MusicPlayerView.swift in Sources */,
+				D5C2F7A42F697B7E0047574C /* PersistenceController.swift in Sources */,
+				D5C2F7A52F697B7E0047574C /* Q2.swift in Sources */,
+				D5C2F7A62F697B7E0047574C /* SettingsView.swift in Sources */,
+				D5C2F7A82F697B7E0047574C /* X7.swift in Sources */,
+				D5C2F7A92F697B7E0047574C /* Y3.swift in Sources */,
+				D5C2F7AA2F697B7E0047574C /* Z9.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D5E64D872F3C630E007EEEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5E64D882F3C630E007EEEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5E64D8A2F3C630E007EEEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicBox/Preview Content\"";
+				DEVELOPMENT_TEAM = 93XL69U5T3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicBox/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VoiceTone;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "MusicBox uses your microphone to record audio tracks.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your data to show personalized ads and improve your app experience.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sa.mymusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D5E64D8B2F3C630E007EEEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicBox/Preview Content\"";
+				DEVELOPMENT_TEAM = 93XL69U5T3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicBox/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VoiceTone;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "MusicBox uses your microphone to record audio tracks.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your data to show personalized ads and improve your app experience.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sa.mymusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5E64D762F3C630C007EEEFA /* Build configuration list for PBXProject "MusicBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E64D872F3C630E007EEEFA /* Debug */,
+				D5E64D882F3C630E007EEEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E64D892F3C630E007EEEFA /* Build configuration list for PBXNativeTarget "MusicBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E64D8A2F3C630E007EEEFA /* Debug */,
+				D5E64D8B2F3C630E007EEEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D5C2F76A2F697B330047574C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.11.0;
+			};
+		};
+		D5C2F76F2F697B490047574C /* XCRemoteSwiftPackageReference "ios_sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adjust/ios_sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D5C2F7742F697B5A0047574C /* XCRemoteSwiftPackageReference "fingerprintjs-pro-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fingerprintjs/fingerprintjs-pro-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5C2F76B2F697B330047574C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5C2F76A2F697B330047574C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D5C2F76D2F697B330047574C /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5C2F76A2F697B330047574C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		D5C2F7702F697B490047574C /* AdjustSdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5C2F76F2F697B490047574C /* XCRemoteSwiftPackageReference "ios_sdk" */;
+			productName = AdjustSdk;
+		};
+		D5C2F7722F697B490047574C /* AdjustWebBridge */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5C2F76F2F697B490047574C /* XCRemoteSwiftPackageReference "ios_sdk" */;
+			productName = AdjustWebBridge;
+		};
+		D5C2F7752F697B5A0047574C /* FingerprintPro */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5C2F7742F697B5A0047574C /* XCRemoteSwiftPackageReference "fingerprintjs-pro-ios" */;
+			productName = FingerprintPro;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		D5C2F7892F697B7E0047574C /* MusicModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D5C2F7932F697B7E0047574C /* MusicModel.xcdatamodel */,
+			);
+			currentVersion = D5C2F7932F697B7E0047574C /* MusicModel.xcdatamodel */;
+			path = MusicModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D5E64D732F3C630C007EEEFA /* Project object */;
+}
